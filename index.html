@@ -79,5 +79,75 @@
         </div>
       </div>
     </section>
+    <!-- section: who we are -->
+    <section id="who">
+      <div class="who-img"></div>
+      <div class="who-text bg-dark p-2">
+        <h2 class="m-heading"><span class="text-primary">Who</span> We Are</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias incidunt, perspiciatis veniam eum recusandae
+          eligendi tempora blanditiis quisquam quae vitae sit accusantium, quod soluta quos voluptatum praesentium iste
+          culpa odio.
+        </p>
+        <h3>our team</h3>
+        <ul class="list">
+          <li>Mark Smith : CEO</li>
+          <li>Shannon Johson : CFO</li>
+          <Li>Janet Williams: Lead Accountant</Li>
+          <li>Kara jackson: Senior Accountant</li>
+        </ul>
+      </div>
+    </section>
+    <section id="clients">
+      <div class="container">
+        <h2 class="m-heading text-center"><span class="text-primary">Our</span> Clients</h2>
+        <div class="items py-1">
+          <div><img src="./img/logos/logo1.png" alt="Clients" /></div>
+          <div><img src="./img/logos/logo2.png" alt="Clients" /></div>
+          <div><img src="./img/logos/logo3.png" alt="Clients" /></div>
+          <div><img src="./img/logos/logo4.png" alt="Clients" /></div>
+          <div><img src="./img/logos/logo5.png" alt="Clients" /></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section: contact  -->
+    <section id="contact">
+      <div class="contact-form bg-primary p-2">
+        <h2 class="m-heading">Contact Us</h2>
+        <p>Please use the form below to contact us</p>
+        <form>
+          <div class="form-group">
+            <label for="name" id="name">Name</label>
+            <input type="text" id="name" placeholder="please enter your name" />
+          </div>
+          <div class="form-group">
+            <label for="Email" id="email">Email</label>
+            <input type="email" id="email" placeholder="please enter your Email" />
+          </div>
+          <div class="form-group">
+            <label for="Phone" id="phone">Phone number</label>
+            <input type="text" id="phone" placeholder="please enter your Phone number" />
+          </div>
+          <div class="form-group">
+            <label for="Message" id="Message">Message</label>
+            <textarea name="message" id="meddage" cols="30" rows="10"></textarea>
+            <input type="submit" value="send" class="btn btn-dark" />
+          </div>
+        </form>
+      </div>
+      <div class="map"></div>
+    </section>
+    <footer id="main-footer" class="bg-dark text-center py-1">
+      <div class="container">
+        <p>Copyright &copy all rights Reserved</p>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvAMr_bTonG04GahR23FrLoCFtrudZwLs&callback=initMap"
+      async
+      defer
+    ></script>
   </body>
 </html>
