@@ -1,0 +1,72 @@
+#what .items {
+  display: block;
+  padding: 1rem;
+}
+
+/* align icons to left  */
+#what .items .item {
+  display: flex;
+  text-align: left;
+}
+
+#what .items .item i {
+  margin-right: 1.3rem;
+  align-self: center;
+  margin-bottom: 0;
+}
+
+@media (max-width: 500px) {
+  #navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+  #navbar .logo {
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+  #navbar ul {
+    padding: 0.5rem;
+  }
+
+  /* to remove the white opcity on the showcase due to the larger navbar */
+  #showcase .showcase-content {
+    top: 105px;
+  }
+}
+/* to remove the image on who section */
+#who {
+  display: block;
+}
+#who .who-img {
+  display: none;
+}
+
+/* client section  */
+#clients .items img {
+  width: 80%;
+}
+
+#clients .items div:last-child {
+  display: none;
+}
+#contact {
+  display: block;
+}
+#contact .map {
+  height: 200px;
+  border-top: 4px solid #333;
+}
+
+/* for fixing iphone 5  */
+@media (max-height: 568px) {
+  #showcase .showcase-content {
+    margin-top: -2rem;
+    top: 135px;
+  }
+  .l-heading {
+    font-size: 3rem;
+  }
+  .lead {
+    font-size: 1rem;
+  }
+}
